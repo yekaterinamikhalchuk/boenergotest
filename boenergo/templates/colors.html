@@ -6,8 +6,10 @@
 <form method="POST">
     {% csrf_token %}
 
-    Номер: <input type="text" name="int"><br><br>
-    <input type="submit">
+    Введите чило: {{ form.var }}<br><br>
+    <button type="submit">Угадать</button>
 </form>
+
+<p>{{result}} </p>
 
 {% endblock content %}
