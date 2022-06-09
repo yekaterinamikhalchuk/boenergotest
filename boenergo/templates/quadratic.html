@@ -1,0 +1,15 @@
+{% extends 'default.html' %}
+
+{% block content %}
+
+<h5>Чтобы решить квадратное уравнение <em>a*x<SUP>2</SUP> + b*x + c = 0 </em> введите следующие данные:</h5>
+<form method="POST">
+    {% csrf_token %}
+
+    Введите a: <input type="text" name="a"><br><br>
+    Введите b: <input type="text" name="b"><br><br>
+    Введите c: <input type="text" name="c"><br><br>
+    <input type="submit">
+</form>
+
+{% endblock content %}
