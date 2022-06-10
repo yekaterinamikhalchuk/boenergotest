@@ -10,7 +10,7 @@
 ### Как запустить проект
 
 1. git clone https://github.com/typhoonseryi/Picasso.git
-2. Установить докер ([См. официальная документация по установке Docker](https://docs.docker.com/engine/install/) <br>)
+2. Установить докер ([См. официальная документация по установке Docker](https://docs.docker.com/engine/install/))
 3. docker-compose build
 4. docker-compose up
 
