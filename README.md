@@ -1,5 +1,5 @@
 ## Тестовое задание
-![](https://img.shields.io/badge/python-3.8-blue)
+![](https://img.shields.io/badge/python-3.10-blue)
 ![](https://img.shields.io/badge/django-4.0-green)
 
 Сервис выполняет две задачи:
